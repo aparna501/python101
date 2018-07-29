@@ -6,3 +6,7 @@ elif b>a :
 	print('b is true')
 else :
 	print('a=b')
+	
+out:
+	
+b is true
