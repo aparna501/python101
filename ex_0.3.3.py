@@ -7,3 +7,7 @@ elif b>c:
 	print("b is large")
 else :
 	print("c is large")
+	
+out:
+	c is large
+	
