@@ -12,3 +12,13 @@ print(positional_order)
 keyword_order = "{s}, {b} and {j}".format(j='John',b='Bill',s='Sean')
 print('\n--- Keyword Order ---')
 print(keyword_order)
+
+sample output:
+  --- Default Order ---
+John, Bill and Sean
+
+--- Positional Order ---
+Bill, John and Sean
+
+--- Keyword Order ---
+Sean, Bill and John
