@@ -1,8 +1,5 @@
-import sys
-string=("Hello world")
-vowels='aeiou'
-count=0
-to_check=sys.arg(string)
-for i in to_check:
-		for j in vowels:
-			count+=1
+alphabet_string=("enter a string")
+string_length=len(alphabet_string)
+reversed_string=alphabet_string[-1:-(string_length+1):-1]
+print(alphabet_string)
+print(reversed_string)
