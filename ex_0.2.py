@@ -6,3 +6,6 @@ elif num<0 :
 		print(num,"is a negative number.")
 else :
 	print(num, " is equal to 0")
+	
+out:
+    2 is a positive number	
