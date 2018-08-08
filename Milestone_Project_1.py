@@ -1,3 +1,4 @@
+#Milestone_Project_1
 class Milestone_1:
 	def __init__(self,w,h,n,str,sent_1,sent_2):
 		self.w=w
