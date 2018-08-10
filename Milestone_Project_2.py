@@ -1,14 +1,19 @@
-class Stack() :
+class StackEmptyExcept() :
 	def __init__(self) :
 		self.item = []
 	def push(self, item) :
 		self.item.append(item)
 	def pop(self) :
-		return self.item.pop()
+		try:
+			return self.item.pop()
+		except IndexError:
+			print("sorry,there is an error")
 	def peek(self):
-		return self.item.peek()
-if __name__ == "__main__":
-    s1 = Stack()
+		n=len(self.item)
+		return self.item[n-1]
+
+
+    s1 = StackEmptyExcept()
     s1.push(1)
     s1.push(2)
     s1.push(3)
@@ -19,5 +24,8 @@ if __name__ == "__main__":
     s1.push(8)
     s1.push(8)
     s1.pop()
-print(s1.item)
+
+
+'''output:
+[1,2,3,4,5,6,7,8]'''
 
