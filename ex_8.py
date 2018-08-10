@@ -1,3 +1,4 @@
+#formating
 types_of_people = 10
 x = f"There are {types_of_people} types of people."
 
@@ -21,11 +22,11 @@ e = "a string with a right side."
 
 print(w + e)
 
-sample output:
+'''sample output:
   There are 10 types of people.
 Those who know binary and those who don't.
 I said: There are 10 types of people.
 I also said: 'Those who know binary and those who don't.'
 Isn't that joke so funny?! False
-This is the left side of...a string with a right side.
+This is the left side of...a string with a right side.'''
 

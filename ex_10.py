@@ -6,6 +6,7 @@ dogs = 15
 if people < cats:
     print("Too many cats! The world is doomed!")
 
+#if-else
 if people > cats:
     print("Not many cats! The world is saved!")
 
@@ -28,11 +29,11 @@ if people <= dogs:
 if people == dogs:
     print("People are dogs.")
     
-  sample output:
+'''  sample output:
     
     Too many cats! The world is doomes!
     The world is dry!
     People are greater than or equal to dogs.
     People are less than or equalto dogs.
-    People are dogs.
+    People are dogs.'''
     

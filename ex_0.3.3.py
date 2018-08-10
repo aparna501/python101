@@ -1,3 +1,4 @@
+#if-else
 a=10
 b=100
 c=1000
@@ -8,6 +9,6 @@ elif b>c:
 else :
 	print("c is large")
 	
-out:
-	c is large
+'''output:
+	c is large'''
 	

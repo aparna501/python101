@@ -1,4 +1,4 @@
-
+#print
 default_order = "{}, {} and {}".format('John','Bill','Sean')
 print('\n--- Default Order ---')
 print(default_order)
@@ -13,7 +13,7 @@ keyword_order = "{s}, {b} and {j}".format(j='John',b='Bill',s='Sean')
 print('\n--- Keyword Order ---')
 print(keyword_order)
 
-sample output:
+'''sample output:
   --- Default Order ---
 John, Bill and Sean
 
@@ -21,4 +21,4 @@ John, Bill and Sean
 Bill, John and Sean
 
 --- Keyword Order ---
-Sean, Bill and John
+Sean, Bill and John'''

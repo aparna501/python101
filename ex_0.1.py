@@ -1,3 +1,4 @@
+#if-else
 a=10
 b=100
 if a>b :
@@ -7,6 +8,6 @@ elif b>a :
 else :
 	print('a=b')
 	
-out:
+'''output:
 	
-b is true
+b is true'''

@@ -1,3 +1,4 @@
+#formating
 cars = 100
 space_in_a_car = 4.0
 drivers = 30
@@ -15,11 +16,11 @@ print("We can transport", carpool_capacity, "people today.")
 print("We have", passengers, "to carpool today.")
 print("We need to put about", average_passengers_per_car, "in each car.")
 
-sample output:
+'''sample output:
   There are 100 cars available.
 There are only 30 drivers available.
 There will be 70 empty cars today.
 We can transport 120.0 people today.
 We have 90 to carpool today.
-We need to put about 3.0 in each car.
+We need to put about 3.0 in each car.'''
 

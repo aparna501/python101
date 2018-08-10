@@ -1,3 +1,4 @@
+#print
 days = "Mon Tue Wed Thu Fri Sat Sun"
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
@@ -12,7 +13,7 @@ Even 4 lines if we want, or 5, or 6.
 """)
 
 
-sample output:
+'''sample output:
   Here are the days:  Mon Tue Wed Thu Fri Sat Sun
 Here are the months:  Jan
 Feb
@@ -26,4 +27,4 @@ Aug
 There's something going on here.
 With the three double-quotes.
 We'll be able to type as much as we like.
-Even 4 lines if we want, or 5, or 6.
+Even 4 lines if we want, or 5, or 6.'''
