@@ -1,13 +1,16 @@
 #if-else
 a=10
 b=100
+c=1000
 if a>b :
 	print('a is true')
-elif b>a :
+elif a>c :
+	print('a is true')
+elif b>c :
 	print('b is true')
-else :
-	print('a=b')
+else:
+	print('c is true')
 	
 '''output:
 	
-b is true'''
+c is true'''

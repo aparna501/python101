@@ -109,6 +109,8 @@ vowel(str)
 
 #Puncuations
 
+'''
+output:WELCOME tO WORLD OF PYtHON'''
 def punct(str):
     punct= '''!()-[]{};:'"\,<>./?@#$%^&*_~''' 
     no_punct=""
