@@ -32,7 +32,7 @@ print(s1.peek())
 s1.pop()
 s1.push(8)
 s1.pop()
-s1.pop()
+s1.peek()
 
 '''output:
 1
