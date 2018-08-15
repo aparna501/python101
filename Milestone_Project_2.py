@@ -43,3 +43,46 @@ s1.peek()
 6
 '''
 
+#Queue Implementation
+
+class Queue:
+	def __init__(self):
+		self.items = []
+
+	def isEmpty(self):
+		return self.items == []
+
+	def enqueue(self, item):
+		self.items.insert(0,item)
+
+	def dequeue(self):
+		return self.items.pop()
+	
+	def size(self):
+		return len(self.items)
+
+	def isEmpty(self):
+		return self.items == []
+
+	def printqueue(self):
+		for items in self.items:
+			print(items)
+
+q1 = Queue()
+print(q1.isEmpty())
+q1.enqueue('Apple')
+q1.enqueue(7)
+q1.enqueue('Python')
+q1.enqueue('World')
+q1.printqueue()
+q1.dequeue()
+q1.printqueue()
+print(q1.size())
+
+'''
+output:True
+       Python
+       7
+       Apple
+       
+       2'''
