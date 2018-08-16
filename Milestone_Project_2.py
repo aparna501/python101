@@ -41,6 +41,7 @@ s1.peek()
 4
 5
 6
+7
 '''
 
 #Queue Implementation
